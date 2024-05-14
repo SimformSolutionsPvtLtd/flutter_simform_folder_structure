@@ -1,0 +1,5 @@
+- All the assets will be stored in this folder.
+- All the assets will be categorized based on their extension or their types. Like, all the raster images will be stored under images folder. All the svgs used as icons will be stored in vectors folder.
+- All the font icons will be stored in icons folder.
+- All the fonts will be stored in fonts folder.
+- A reference of these files will be stored in lib/resources folder.
