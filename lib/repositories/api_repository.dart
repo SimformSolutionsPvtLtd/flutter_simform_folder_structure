@@ -2,12 +2,12 @@
 // Other API repo will extend this repo.
 
 import 'package:dio/dio.dart';
-import 'package:simform_folder_structure_example/repository/api_service.dart';
+import 'package:flutter_simform_folder_structure/repositories/api_service.dart';
 
-abstract class NetworkRepository<T extends ApiService> {
+abstract class ApiRepository<T extends ApiService> {
   late final Dio dio;
 
-  NetworkRepository(
+  ApiRepository(
       {required String url, Iterable<Interceptor> interceptors = const []}) {
     dio = Dio(BaseOptions(baseUrl: url));
     dio.interceptors.addAll(interceptors);

@@ -1,4 +1,4 @@
-name: simform_folder_structure_example
+name: flutter_simform_folder_structure
 description: "Demonstrate a sample folder structure for the architecture used in simform."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

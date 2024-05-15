@@ -5,5 +5,5 @@ class AuthRequest {
   const AuthRequest({
     required this.password,
     required this.username,
-});
+  });
 }
