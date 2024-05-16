@@ -2,7 +2,7 @@
 // Other API repo will extend this repo.
 
 import 'package:dio/dio.dart';
-import 'package:flutter_simform_folder_structure/repositories/api_service.dart';
+import 'package:flutter_simform_folder_structure/repositories/api_repositories/api_service.dart';
 
 abstract class ApiRepository<T extends ApiService> {
   late final Dio dio;
