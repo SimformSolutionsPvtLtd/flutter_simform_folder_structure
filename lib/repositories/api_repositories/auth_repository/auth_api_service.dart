@@ -5,6 +5,11 @@ import 'package:retrofit/retrofit.dart';
 
 part 'auth_api_service.g.dart';
 
+// Any API calls related to user authentication and creation will come here.
+// we are dividing these repositories basaed on modules so, if there is another
+// module for posts, there will be separate library for post's APIs.
+// All the request and response models will be stored in models folder.
+
 @RestApi()
 abstract class AuthApiService extends ApiService {
   factory AuthApiService(Dio dio, {String baseUrl}) = _AuthApiService;
